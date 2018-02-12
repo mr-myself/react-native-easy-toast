@@ -18,7 +18,7 @@ import {
 } from 'react-native'
 
 const ViewPropTypes = RNViewPropTypes || View.propTypes;
- 
+
 export const DURATION = {
     LENGTH_LONG: 2000,
     LENGTH_SHORT: 500,
@@ -135,13 +135,13 @@ const styles = StyleSheet.create({
 });
 
 Toast.propTypes = {
-    style: ViewPropTypes.style,
+    //style: ViewPropTypes.style,
     position: PropTypes.oneOf([
         'top',
         'center',
         'bottom',
     ]),
-    textStyle: Text.propTypes.style,
+    //textStyle: Text.propTypes.style,
     positionValue:PropTypes.number,
     fadeInDuration:PropTypes.number,
     fadeOutDuration:PropTypes.number,
